@@ -4,3 +4,9 @@ body {
 .navbar-inverse {
 	background-color: rgba(0, 0, 0, 0.8);
 }
+#navbartwo {
+	font-size: 1.65em;
+}
+.image {
+	border: 3px black solid;
+}
