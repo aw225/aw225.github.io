@@ -5,12 +5,13 @@
 	<head>
 		<title>Science Magazine</title>
 		<link href='dist/css/bootstrap.css' rel='stylesheet'>
+		<link href="stylesheet.css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 
 	<body>
 
-		<nav class="navbar navbar-default" role="navigation">
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   			<div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     			<div class="navbar-header">
@@ -24,48 +25,27 @@
     			</div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search an article">
-        </div>
-        <button type="submit" class="btn btn-default">Go</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="#">Link</a></li>
+			        <li><a href="#">Link</a></li>
+			        <li><a href="#">Link</a></li>
+			      </ul>
+	      
+			      <ul class="nav navbar-nav navbar-right">
+			        <form class="navbar-form navbar-left" role="search">
+			        <div class="form-group">
+			          <input type="text" class="form-control" placeholder="Search an article">
+			        </div>
+			        <button type="submit" class="btn btn-default">Go</button>
+			      </form>
+			      </ul>
+	   			</div><!-- /.navbar-collapse -->
+ 			</div><!-- /.container-fluid -->
+		</nav>
 
-		<div class='jumbotron'>
-			<div class='container'>
+		<div class='container'>
+			<div class='jumbotron'>
 				<div class='row'>
 					<div class='col-sm-8'>
 						<h1>Science Magazine</h1>
@@ -78,11 +58,60 @@
 		</div>	
 			<div class='container'>
 				<div class='row'>
-					<div class='col-sm-2'>
-						<p>Side Bar</p>
+					<div class='col-sm-12'>
+						<nav class="navbar navbar-default" role='navigation'>
+							<div class='container-fluid'>
+								<a href='#'>link</a>
+							</div>	
+						</nav>
 					</div>
-					<div class='col-sm-10'>
+				</div>
+
+				<div class='row'>
+					<div class='col-sm-9'>
 						<p>Main Text</p>
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>hi
+					</div>
+					<div class='col-sm-3'>
+						<h2>Featured articles</h2>
+						<table class="table">
+							<thead>
+								<th colspan='2'>
+									Read-worthy
+								</th>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>New particle- Rigg's Fermion -discovered!</td>
+								</tr>
+
+								<tr>
+									<td>2</td>
+									<td>Neutrinos do travel faster than the speed of light!</td>
+								</tr>
+
+								<tr>
+									<td>3</td>
+									<td>Chemists synthesize aspirin from tree bark</td>
+								</tr>
+
+								<tr>
+									<td>4</td>
+									<td>Psychologists in Denver develop pathway to recovery for failed businesspeople</td>
+								</tr>
+
+								<tr>
+									<td>5</td>
+									<td>Anti-war campaigners supported by new hormone discovery</td>
+								</tr>
+
+								<tr>
+									<td>6</td>
+									<td>A petition to release synthetic data for ministers coffee is successful</td>
+								</tr>
+						</table>		
 					</div>
 				</div>
 			</div>		
