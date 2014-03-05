@@ -10,3 +10,16 @@ body {
 .image {
 	border: 3px black solid;
 }
+h1 {
+	font-family: helvetica;
+	font-size: 30px;
+}
+a {
+	color: gray;
+}
+a hover {
+	color: black;
+}
+#main-article {
+	padding-bottom: 20px;
+}
